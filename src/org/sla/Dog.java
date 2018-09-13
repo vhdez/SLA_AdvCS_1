@@ -1,6 +1,6 @@
 package org.sla;
 
-public class Dog {
+class Dog {
     int age;
     String name;
     String petType;

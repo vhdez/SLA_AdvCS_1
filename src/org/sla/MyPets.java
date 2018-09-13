@@ -1,8 +1,8 @@
 package org.sla;
 
-public class MyPets {
+class MyPets {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         // I have 3 pets.
 
         // The 1st pet is a dog named Rufus.
