@@ -3,10 +3,11 @@ package org.sla;
 public class Dog {
     int age;
     String name;
+    String petType;
     boolean eatsDryFood;
 
     void sayHi() {
-        System.out.println("Woof!  My name is " + name + ".");
+        System.out.println("Woof!");
     }
 
     int getAge() {
@@ -14,7 +15,7 @@ public class Dog {
     }
 
     void describe() {
-        System.out.println("I'm a Dog named " + name + ".");
+        System.out.println("I'm a " + petType + " named " + name + ".");
         System.out.println("I'm " + age*7 + " dog years old.");
         if (eatsDryFood) {
             System.out.println("I eat dry food.");

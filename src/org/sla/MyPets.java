@@ -9,18 +9,21 @@ public class MyPets {
         Dog rufus = new Dog();
         rufus.age = 3;
         rufus.name = "Rufus";
+        rufus.petType = "dog";
         rufus.eatsDryFood = false;
 
         // The 2nd pet is an older dog named Tully.
         Dog tully = new Dog();
-        tully.age = 5;
+        tully.age = 14;
         tully.name = "Tully";
+        tully.petType = "dog";
         tully.eatsDryFood = true;
 
-        // The 2nd pet is an older dog named Tully.
+        // The 3rd pet is an older cat named Ralph.
         Cat ralph = new Cat();
         ralph.age = 15;
         ralph.name = "Ralph";
+        ralph.petType = "cat";
         ralph.eatsDryFood = false;
 
         // Tell the pets to say hi.
