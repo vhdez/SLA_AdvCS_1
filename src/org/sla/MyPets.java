@@ -26,6 +26,20 @@ class MyPets {
         ralph.petType = "cat";
         ralph.eatsDryFood = false;
 
+        //Paxton's cat
+        Cat magnum = new Cat();
+        magnum.age = 5;
+        magnum.name = "Magnum";
+        magnum.petType = "cat";
+        magnum.eatsDryFood = true;
+
+        //Paxton's rock
+        Rock rocky = new Cat();
+        rocky.age = 7;
+        rocky.name = "Rocky";
+        rocky.petType = "rock";
+        rocky.eatsDryFood = false;
+
         // The other dog is a dog named George.
          // Andrew Wrote this:
         Dog George = new Dog();
@@ -64,7 +78,7 @@ class MyPets {
         Iggy.describe();
 
         // Report cumulative data about pets.
-        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + George.getAge() + Iggy.getAge();
+        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + George.getAge() + Iggy.getAge() + magnum.getAge() +rocky.getAge()*1000;
         System.out.println("My pets have lived a total of " + totalPetsAge + " human years.");
     }
 }
