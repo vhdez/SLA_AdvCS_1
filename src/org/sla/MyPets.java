@@ -26,11 +26,19 @@ class MyPets {
         ralph.petType = "cat";
         ralph.eatsDryFood = false;
 
+        //Donald's cat
+        Cat buddy = new Cat();
+        buddy.age = 17;
+        buddy.name = "Buddy";
+        buddy.petType = "cat";
+        buddy.eatsDryFood = true;
+
         // Tell the pets to say hi.
         System.out.println("SAY HI PETS!");
         bowser.sayHi();
         tully.sayHi();
         ralph.sayHi();
+        buddy.sayHi();
         System.out.println();
 
         // Tell the pets to describe themselves.
@@ -41,9 +49,11 @@ class MyPets {
         System.out.println();
         ralph.describe();
         System.out.println();
+        buddy.describe();
+        System.out.println();
 
         // Report cumulative data about pets.
-        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge();
+        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + buddy.getAge();
         System.out.println("My pets have lived a total of " + totalPetsAge + " human years.");
     }
 }
