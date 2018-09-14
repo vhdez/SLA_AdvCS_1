@@ -33,6 +33,13 @@ class MyPets {
         magnum.petType = "cat";
         magnum.eatsDryFood = true;
 
+        //Paxton's Rock
+        Rock rocky = new Cat();
+        rocky.age = 7;
+        rocky.name = "Rocky";
+        rocky.petType = "rock";
+        rocky.eatsDryFood = false;
+
         // Tell the pets to say hi.
         System.out.println("SAY HI PETS!");
         bowser.sayHi();
@@ -50,7 +57,7 @@ class MyPets {
         System.out.println();
 
         // Report cumulative data about pets.
-        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + magnum.getAge();
+        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + magnum.getAge() + rocky.getAge()*1000;
         System.out.println("My pets have lived a total of " + totalPetsAge + " human years.");
     }
 }
