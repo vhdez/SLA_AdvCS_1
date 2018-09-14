@@ -88,6 +88,7 @@ class MyPets {
         Iggy.sayHi();
         Callie.sayHi();
         buddy.sayHi();
+        rexsivl.sayHi();
         System.out.println();
 
         // Tell the pets to describe themselves.
@@ -100,12 +101,14 @@ class MyPets {
         System.out.println();
         buddy.describe();
         System.out.println();
+        rexsivl.describe();
+        System.out.println();
         Iggy.describe();
         Callie.describe();
         System.out.println();
 
         // Report cumulative data about pets.
-        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + George.getAge() + Iggy.getAge() + magnum.getAge() +rocky.getAge() + buddy.getAge();
+        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + George.getAge() + Iggy.getAge() + magnum.getAge() +rocky.getAge() + buddy.getAge() + rexsivl.getAge();
         System.out.println("My pets have lived a total of " + totalPetsAge + " human years.");
     }
 }
