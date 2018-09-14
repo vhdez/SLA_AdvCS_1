@@ -34,7 +34,7 @@ class MyPets {
         magnum.eatsDryFood = true;
 
         //Paxton's rock
-        Rock rocky = new Cat();
+        Rock rocky = new Rock();
         rocky.age = 7;
         rocky.name = "Rocky";
         rocky.petType = "rock";
