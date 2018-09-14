@@ -35,7 +35,7 @@ class MyPets {
         George.eatsDryFood = false;
 
         // An Iguana named Iggy
-
+         // Mr. Hernandez wrote this:
         Iguana Iggy = new Iguana();
         Iggy.age = 5;
         Iggy.name = "Iggy";
