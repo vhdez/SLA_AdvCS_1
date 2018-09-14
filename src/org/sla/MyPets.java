@@ -42,6 +42,14 @@ class MyPets {
         Iggy.petType = "Iguana";
         Iggy.eatsDryFood = false;
 
+        // A dog named Callie
+         // Eric wrote this:
+        Dog Callie = new Dog();
+        Callie.age = 2;
+        Callie.name = "Callie";
+        Callie.petType = "dog";
+        Callie.eatsDryFood = true;
+
         // Tell the pets to say hi.
         System.out.println("SAY HI PETS!");
         bowser.sayHi();
@@ -49,6 +57,7 @@ class MyPets {
         ralph.sayHi();
         George.sayHi();
         Iggy.sayHi();
+        Callie.sayHi();
         System.out.println();
 
         // Tell the pets to describe themselves.
@@ -62,6 +71,8 @@ class MyPets {
         George.describe();
         System.out.println();
         Iggy.describe();
+        Callie.describe();
+        System.out.println();
 
         // Report cumulative data about pets.
         int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + George.getAge() + Iggy.getAge();
