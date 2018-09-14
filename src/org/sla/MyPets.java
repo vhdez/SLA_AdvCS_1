@@ -27,7 +27,7 @@ class MyPets {
         ralph.eatsDryFood = false;
 
         // The other dog is a dog named George.
-
+         // Andrew Wrote this:
         Dog George = new Dog();
         George.age = 1;
         George.name = "George";
@@ -35,7 +35,7 @@ class MyPets {
         George.eatsDryFood = false;
 
         // An Iguana named Iggy
-         // Mr. Hernandez wrote this:
+         // Andrew wrote this:
         Iguana Iggy = new Iguana();
         Iggy.age = 5;
         Iggy.name = "Iggy";
