@@ -58,6 +58,6 @@ class MyPets {
 
         // Report cumulative data about pets.
         int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + magnum.getAge() + rocky.getAge()*1000;
-        System.out.println("My pets have lived a total of " + totalPetsAge + " human years.");
+        System.out.println("MY pets have lived a total of " + totalPetsAge + " human years.");
     }
 }
