@@ -85,6 +85,8 @@ class MyPets {
         tully.sayHi();
         ralph.sayHi();
         George.sayHi();
+        magnum.sayHi();
+        rocky.sayHi();
         Iggy.sayHi();
         Callie.sayHi();
         buddy.sayHi();
@@ -99,6 +101,10 @@ class MyPets {
         ralph.describe();
         System.out.println();
         buddy.describe();
+        System.out.println();
+        magnum.describe();
+        System.out.println();
+        rocky.describe();
         System.out.println();
         Iggy.describe();
         Callie.describe();
