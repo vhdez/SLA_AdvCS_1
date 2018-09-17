@@ -84,7 +84,7 @@ class MyPets {
         bowser.sayHi();
         tully.sayHi();
         ralph.sayHi();
-        George.sayHi();\
+        George.sayHi();
         magnum.sayHi();
         rocky.sayHi();
         Iggy.sayHi();
