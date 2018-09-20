@@ -11,7 +11,7 @@ public class Slothy {
     int getAge() { return age; }
 
     void describe() {
-        System.out.println("I'm a " + petType + " named " + name + '.'+ "I Like to sleep~");
+        System.out.println("I'm a " + petType + " named " + name + '.'+ "I Like to sleep and eat~");
         System.out.println("I'm " + age + " human years old.");
         if (eatsDryFood) {
             System.out.println("I eat dry food.");
