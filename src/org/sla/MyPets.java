@@ -79,6 +79,22 @@ class MyPets {
         Callie.petType = "dog";
         Callie.eatsDryFood = true;
 
+        // Val's cat named Salem
+        Cat Salem = new Cat();
+        Salem.age = 5;
+        Salem.name = "Salem";
+        Salem.petType = "cat";
+        Salem.eatsDryFood = false;
+        //Val's Sloth named Sleepy
+        Slothy Slothy = new Slothy();
+        Slothy.name = "Sleepy";
+        Slothy.age = 10;
+        Slothy.petType = "sloth";
+        Slothy.eatsDryFood = true;
+
+
+
+
         // Tell the pets to say hi.
         System.out.println("SAY HI PETS!");
         bowser.sayHi();
@@ -91,6 +107,8 @@ class MyPets {
         Callie.sayHi();
         buddy.sayHi();
         rexsivl.sayHi();
+        Salem.sayHi();
+        Slothy.sayHi();
         System.out.println();
 
         // Tell the pets to describe themselves.
@@ -112,9 +130,15 @@ class MyPets {
         Iggy.describe();
         Callie.describe();
         System.out.println();
+        Salem.describe();
+        System.out.println();
+        Slothy.describe();
+        System.out.println();
+
+
 
         // Report cumulative data about pets.
-        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + George.getAge() + Iggy.getAge() + magnum.getAge() +rocky.getAge() + buddy.getAge() + rexsivl.getAge();
+        int totalPetsAge = bowser.getAge() + tully.getAge() + ralph.getAge() + George.getAge() + Iggy.getAge() + magnum.getAge() +rocky.getAge() + buddy.getAge() + rexsivl.getAge()+Salem.getAge()+Slothy.getAge();
         System.out.println("My pets have lived a total of " + totalPetsAge + " human years.");
     }
 }
