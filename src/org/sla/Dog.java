@@ -1,18 +1,11 @@
 package org.sla;
 
-class Dog {
-    int age;
-    String name;
-    String petType;
-    boolean eatsDryFood;
+class Dog extends Pet {
 
     void sayHi() {
         System.out.println("Woof!");
     }
 
-    int getAge() {
-        return age;
-    }
 
     void describe() {
         System.out.println("I'm a " + petType + " named " + name + ".");
